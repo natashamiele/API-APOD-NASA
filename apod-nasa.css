@@ -3,6 +3,8 @@ html {
     width: 100%;
     height: 100%;
     background-image: url(./imagens/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
 }
 
