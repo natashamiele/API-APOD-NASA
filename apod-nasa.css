@@ -1,0 +1,153 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-image: url(./imagens/wallpaper.jpg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+
+    width: 500px;
+    margin: auto;
+    font-size: 14px;
+}
+
+.titulo {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 250px;
+    margin: auto;
+}
+
+.texto {
+    text-align: center;
+    color: white;
+}
+
+.escolha {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 150px;
+    margin: 20px auto;
+}
+
+.botao {
+    width: 145px;
+    height: 20px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;  
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.texto-api {
+    display: block;
+    margin: 0 50px;
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    color: white;
+    line-height: 1.2;
+}
+
+.titulo-foto {
+    font-size: 16px;
+}
+
+.texto-foto {
+    font-size: 14px;
+}
+
+.copyright {
+    font-size: 10px;
+    margin: 15px 0 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    margin: 10px 0 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+}
+
+.icon{
+    margin: 5px;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 11px 0 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    /*color: rgb(201, 80, 155);*/
+}
+
+@media(max-width:700px) {
+
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .titulo {
+        width: auto;
+        text-align: center;
+        font-size: 20px;
+        height: 150px;
+    }
+
+    .form, .texto {
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .texto-api {
+        margin: auto;
+        width: 300px;
+    }
+
+    footer{
+        position: fixed;
+        display: block;
+        justify-content: center;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .icon {
+        width: 15px;
+        height: 15px;
+    } 
+
+
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="apod-nasa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./imagens/favicon.png">
+    <title>APOD NASA</title>
+</head>
+
+<body>
+
+    <header>
+        <section class="titulo">
+            <h1>Astronomy Picture of the Day</h1>
+        </section>
+    </header>
+
+    <form class="form">
+        <h3 class="texto">Descubra o cosmos pelas lentes da NASA com o APOD!<br>Navegue pelas datas e veja as fotos do
+            nosso universo fascinante.<br> Cada imagem contém uma explicação escrita por um astrônomo.</h3>
+        </section>
+
+        <section class="escolha">
+
+            <input type="date" name="date" id="data" min="1995-06-20">
+            <input type="button" class="botao" value="Resultado">
+
+        </section>
+
+    </form>
+
+    <section class="texto-api">
+        <h1 class="titulo-foto"></h1>
+        <p class="texto-foto"></p>
+        <p class="copyright"></p>
+
+    </section>
+
+    <footer>
+        <div>
+            <a href="https://www.linkedin.com/in/natashamiele/"><img class="icon" src="imagens/linkedin-branco.svg"
+                    width="30" height="30"></a>
+            <a href="https://github.com/Natasha-Miele"><img class="icon" src="imagens/github-branco.png" width="30"
+                    height="30"></a>
+        </div>
+
+        <div>
+            <p class="rodape"><a href="https://www.linkedin.com/in/natashamiele/"><strong>Natasha Miele WebDev</strong></a> ©Copyright 2021</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="apod-nasa.js"></script>
+
+</body>
+
+</html>
