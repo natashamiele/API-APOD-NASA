@@ -7,4 +7,6 @@ $('.botao').on('click', async function () {
     $('.titulo-foto').html(`${api.title}`);
     $('.texto-foto').html(`(${api.explanation})`);
     $('.copyright').html(`Copyright: ${api.copyright}`);
+    $('body').css('background-size', 'cover');
+    $('body').css('background-repeat', 'no-repeat');
 });
